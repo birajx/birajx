@@ -25,8 +25,8 @@ jobs:
         run: |
           sudo apt-get install nmap
           sudo npm -g install svgo
-          git config --local user.email "null@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "birajx@github.com"
+          git config --local user.name "BirajX Bot"
 
       - name: Perform connection tests
         run: deno run --allow-net --allow-read --allow-write --allow-run --unstable source/tests.ts
